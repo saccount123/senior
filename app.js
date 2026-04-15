@@ -125,8 +125,7 @@ function updateResumeNote() {
   }
 
   resumeNote.textContent =
-    `You have reviewed ${reviewedCount} of ${totalCount} profiles, with ${remainingCount} left. ` +
-    `You’ll reopen on ${viewLabel} in this browser.`;
+    `You have reviewed ${reviewedCount} of ${totalCount} profiles, with ${remainingCount} left. `;
 }
 
 function sanitizeValue(value, fallback = "N/A") {
